@@ -1,4 +1,5 @@
 import react from "react";
+import { Link } from 'react-scroll';
 import {navData, socialData} from "../utils/data.jsx";
 
 const Navbar = () => {
@@ -12,9 +13,16 @@ const Navbar = () => {
 				<div className='flex flex-1 justify-center items-center max-sm:hidden pr-28 font-semibold'>
 					{items.map((nav, index) => {
 						return (
-							<div className='px-5 cursor-pointer text-gray hover:text-red-700 hover:drop-shadow-xl transition-all' key={index}>
+							<Link
+								key={index}
+								to={nav.href}  // Set the target section's ID as the 'to' prop
+								smooth={true}   // Enable smooth scrolling
+								duration={500}  // Set the scroll duration in milliseconds
+								spy={true}      // Automatically add the "active" class when the section is in view
+								offset={-100}   // Optional: adjust the scroll position if you have a fixed header
+								className='px-5 cursor-pointer text-gray hover:text-red-700 hover:drop-shadow-xl transition-all' >
 								{nav.name}
-							</div>
+							</Link>
 						)
 					})}
 				</div>

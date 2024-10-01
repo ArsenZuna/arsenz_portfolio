@@ -12,9 +12,9 @@ const App = () => {
     <div className='font-sans bg-blue-950 overflow-x-hidden'>
       <Navbar />
       <Hero />
-      <About />
-      <Projects />
-      <Contact />
+      <section id='about'><About /></section>
+      <section id='projects'><Projects /></section>
+      <section id='contact'><Contact /></section>
       <Footer />
     </div>
   )

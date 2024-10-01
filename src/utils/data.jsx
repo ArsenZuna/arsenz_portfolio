@@ -18,7 +18,7 @@ import carparking from '../../public/assets/carparking.png'
 
 export const navData = {
 	items: [
-		{ href: 'home', name: 'Home' },
+		{ href: '', name: 'Home' },
 		{ href: 'about', name: 'About' },
 		{ href: 'projects', name: 'Projects' },
 		{ href: 'contact', name: 'Contact' },
