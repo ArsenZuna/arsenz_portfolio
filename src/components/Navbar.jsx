@@ -8,7 +8,7 @@ const Navbar = () => {
 	return (
 		<header className='w-full py-5 sm:px-10 px-5 flex justify-between items-center bg-white'>
 			<nav className='flex flex-1 justify-between w-full'>
-				<h2 className='text-3xl font-bold text-blue-950'>AZ Portofolio</h2>
+				<h2 className='text-3xl font-bold text-blue-950 ml-2'>AZ Portfolio</h2>
 
 				<div className='flex flex-1 justify-center items-center max-sm:hidden pr-28 font-semibold'>
 					{items.map((nav, index) => {

@@ -9,7 +9,7 @@ import gsap from '../../public/assets/gsap.svg'
 import sentry from '../../public/assets/sentry.png'
 import git from '../../public/assets/git.png'
 import sql from '../../public/assets/sql.svg'
-import portofolio from '../../public/assets/portofolio.png'
+import portfolio from '../../public/assets/portfolio.png'
 import tattoostudio from '../../public/assets/tattoostudio.png'
 import applesiteclone from '../../public/assets/applesiteclone.png'
 import proptyfinder from '../../public/assets/proptyfinder.png'
@@ -48,5 +48,5 @@ export const projectsData = [
 	{name:'ProptyFinder', description: 'A responsive and simple React app where you can search or upload different types of properties.', link: 'https://github.com/ArsenZuna/proptyfinder', image: proptyfinder, alt: 'property'},
 	{name:'Apple Site-Clone', description: 'Developed a React.js clone of the Apple site, mostly focusing on the 3D view of their iPhone Pro models.', link: 'https://github.com/ArsenZuna/applesite_clone', image: applesiteclone, alt: 'applesite'},
 	{name:'Longstay', description: 'A React.js site to reserve a parking space for your vehicle before you go to the airport without a problem.', link: 'https://github.com/ArsenZuna/car-parking', image: carparking, alt: 'carparking'},
-	{name:'Portofolio', description: 'Creating my own portofolio to show and improve my skills by using Vite, React.js, Tailwind, Motions, etc.', link: 'https://github.com/ArsenZuna/arsenz_portofolio', image: portofolio, alt: 'portofolio'},
+	{name:'Portfolio', description: 'Creating my own portfolio to show and improve my skills by using Vite, React.js, Tailwind, Motions, etc.', link: 'https://github.com/ArsenZuna/arsenz_portfolio', image: portfolio, alt: 'portfolio'},
 ]
