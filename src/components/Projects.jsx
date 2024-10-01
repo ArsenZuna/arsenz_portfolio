@@ -13,7 +13,7 @@ const Projects = () => {
 				viewport={{ once: false, amount: 0.4 }}
 				className='flex justify-center items-center font-bold text-4xl pb-10 text-white'>Projects</motion.h2>
 			<div className='container flex flex-1 justify-center mx-auto w-full'>
-				<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-24 gap-y-14'>
+				<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-28 gap-y-16'>
 					{projectsData.map((item, index) => {
 						return (
 							<div

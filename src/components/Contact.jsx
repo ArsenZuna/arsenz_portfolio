@@ -31,7 +31,7 @@ const Contact = () => {
 				initial='hidden'
 				whileInView={'show'}
 				viewport={{ once: false, amount: 0.4 }}
-				className='container w-full'>
+				className='container mx-auto w-full'>
 				<div className='max-w-md mx-auto px-8 py-6 rounded-2xl bg-slate-100 hover:drop-shadow-2xl'>
 					<h2
 						className='flex flex-1 justify-center items-center text-4xl font-bold text-blue-950 mb-4'>Contact Me</h2>
