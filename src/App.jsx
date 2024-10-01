@@ -9,7 +9,7 @@ import * as Sentry from "@sentry/react";
 const App = () => {
 
   return (
-    <div className='font-sans bg-blue-950'>
+    <div className='font-sans bg-blue-950 overflow-x-hidden'>
       <Navbar />
       <Hero />
       <About />
