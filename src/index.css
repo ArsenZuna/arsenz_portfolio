@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*CV Button*/
+.cv_button {
+    padding: 0.8em 1.8em;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #EF4444FF;
+}
+
+.cv_button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #0E7490FF;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.cv_button:hover::before {
+    width: 105%;
+}
+
+.cv_button:hover {
+    color: white;
+}
+
+
+.skillcard {
+    width: 100px;
+    height: 120px;
+    background-image: linear-gradient(163deg, #EF4444FF 0%, #0E7490FF 100%);
+    transition: all .3s;
+    border-radius: 10px;
+}
+
+.skillcard2 {
+    width: 100px;
+    height: 120px;
+    background-color: rgb(23 37 84);
+    transition: all .2s;
+    border-radius: 10px;
+}
+
+.skillcard2:hover {
+    transform: scale(0.75);
+    border-radius: 10px;
+}
+
+.skillcard:hover {
+    box-shadow: 0px 0px 30px 1px #EF4444FF;
+}
