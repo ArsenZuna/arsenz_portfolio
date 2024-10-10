@@ -28,12 +28,19 @@ const Projects = () => {
 								<div className='p-4'>
 									<h2 className='flex flex-1 justify-center items-center text-2xl text-blue-950 font-bold'>{item.name}</h2>
 									<p className='text-blue-950 pt-2'>{item.description}</p>
-									<div className='flex justify-center items-center pt-6'>
+									<div className='flex justify-center items-center gap-5 pt-6'>
+										<a href={item.preview} target='_blank' rel='noreferrer'>
+											<button
+												className='font-semibold bg-cyan-700 hover:bg-red-600 text-white px-5 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400'
+											>
+												Preview
+											</button>
+										</a>
 										<a href={item.link} target='_blank' rel='noreferrer'>
 											<button
 												className='font-semibold bg-cyan-700 hover:bg-red-600 text-white px-5 py-2 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400'
 											>
-												Learn More
+												Repository
 											</button>
 										</a>
 									</div>
