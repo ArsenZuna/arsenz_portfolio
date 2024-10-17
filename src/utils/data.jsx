@@ -6,7 +6,7 @@ import javascript from '../../public/assets/javascript.png'
 import react from '../../public/assets/react.svg'
 import tailwind from '../../public/assets/tailwind.svg'
 import gsap from '../../public/assets/gsap.svg'
-import sentry from '../../public/assets/sentry.png'
+import typescript from '../../public/assets/typescript.svg'
 import git from '../../public/assets/git.png'
 import sql from '../../public/assets/sql.svg'
 import notes from '../../public/assets/notes.png'
@@ -38,7 +38,7 @@ export const skillsData = [
 	{name: 'Tailwind', icon: tailwind, alt: 'tailwind_logo'},
 	{name: 'React.js', icon: react, alt: 'react_logo'},
 	{name: 'GSAP', icon: gsap, alt: 'gsap_logo'},
-	{name: 'Sentry', icon: sentry, alt: 'sentry_logo'},
+	{name: 'TypeScript', icon: typescript, alt: 'ts_logo'},
 	{name: 'SQL', icon: sql, alt: 'sql_logo'}
 ];
 
