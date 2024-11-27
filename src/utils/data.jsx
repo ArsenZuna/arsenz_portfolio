@@ -14,7 +14,7 @@ import tattoostudio from '../../public/assets/tattoostudio.png'
 import applesiteclone from '../../public/assets/applesiteclone.png'
 import proptyfinder from '../../public/assets/proptyfinder.png'
 import pacman from '../../public/assets/pacman.png'
-import carparking from '../../public/assets/carparking.png'
+import aztronics from '../../public/assets/aztronics.png'
 
 export const navData = {
 	items: [
@@ -46,7 +46,7 @@ export const projectsData = [
 	{name:'JS Pacman', description: 'Pacman-like game made by only using HTML, CSS, and JavaScript to provide a simple gameplay and mechanics.', preview:'https://clone-pacman.netlify.app', link: 'https://github.com/ArsenZuna/pacman', image: pacman, alt: 'pacman'},
 	{name:'Notes App', description: 'A small, simple, and responsive app to keep notes and manage them by using Vite + React, Tailwind, and Framer Motion.', preview:'https://simplenotes-app.netlify.app', link: 'https://github.com/ArsenZuna/notes-app', image: notes, alt: 'notes'},
 	{name:'Apple Site-Clone', description: 'Developed a React.js clone of the Apple site, mostly focusing on the 3D view of their iPhone Pro models.', preview:'https://iphonesiteclone.netlify.app', link: 'https://github.com/ArsenZuna/applesite_clone', image: applesiteclone, alt: 'applesite'},
-	{name:'Tattoo Studio', description: 'A simple site for a tattoo studio made with React.js using frameworks like Tailwind and Framer Motion.', preview:'https://tattoostudiosite.netlify.app', link: 'https://github.com/ArsenZuna/tattoo_studio', image: tattoostudio, alt: 'tattoostudio'},
-	{name:'Longstay', description: 'A React.js site to reserve a parking space for your vehicle before you go to the airport without a problem.', preview:'https://carparkingsite.netlify.app', link: 'https://github.com/ArsenZuna/car-parking', image: carparking, alt: 'carparking'},
+	{name:'Tattoo Studio', description: 'A simple site for a tattoo studio made with React.js using frameworks like Tailwind and Framer Motion.', preview:'https://tattoostudiosite.netlify.app', link: 'https://github.com/ArsenZuna/tattoostudiosite', image: tattoostudio, alt: 'tattoostudio'},
+	{name:'AZtronics', description: 'An e-commerce site where you can order electronic devices like smartphones, laptops, headphones, and more.', preview:'https://aztronics.netlify.app', link: 'https://github.com/ArsenZuna/aztronics', image: aztronics, alt: 'aztronics'},
 	{name:'ProptyFinder', description: 'A responsive and simple React app where you can search or upload different types of properties.', preview:'https://proptyfinder.netlify.app', link: 'https://github.com/ArsenZuna/proptyfinder', image: proptyfinder, alt: 'property'},
 ]
