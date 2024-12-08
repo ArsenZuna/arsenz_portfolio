@@ -9,7 +9,7 @@ import gsap from '../../public/assets/gsap.svg'
 import sentry from '../../public/assets/sentry.svg'
 import git from '../../public/assets/git.png'
 import sql from '../../public/assets/sql.svg'
-import notes from '../../public/assets/notes.png'
+import auction from '../../public/assets/auction.png'
 import tattoostudio from '../../public/assets/tattoostudio.png'
 import applesiteclone from '../../public/assets/applesiteclone.png'
 import proptyfinder from '../../public/assets/proptyfinder.png'
@@ -44,7 +44,7 @@ export const skillsData = [
 
 export const projectsData = [
 	{name:'JS Pacman', description: 'Pacman-like game made by only using HTML, CSS, and JavaScript to provide a simple gameplay and mechanics.', preview:'https://clone-pacman.netlify.app', link: 'https://github.com/ArsenZuna/pacman', image: pacman, alt: 'pacman'},
-	{name:'Notes App', description: 'A small, simple, and responsive app to keep notes and manage them by using Vite + React, Tailwind, and Framer Motion.', preview:'https://simplenotes-app.netlify.app', link: 'https://github.com/ArsenZuna/notes-app', image: notes, alt: 'notes'},
+	{name:'Auction App', description: 'A small, simple, and responsive site where you can list and bid on items by using Vite + React, Tailwind, and Framer Motion.', preview:'https://auctions-site.netlify.app', link: 'https://github.com/ArsenZuna/auction-app', image: auction, alt: 'auction'},
 	{name:'Apple Site-Clone', description: 'Developed a React.js clone of the Apple site, mostly focusing on the 3D view of their iPhone Pro models.', preview:'https://iphonesiteclone.netlify.app', link: 'https://github.com/ArsenZuna/applesite_clone', image: applesiteclone, alt: 'applesite'},
 	{name:'Tattoo Studio', description: 'A simple site for a tattoo studio made with React.js using frameworks like Tailwind and Framer Motion.', preview:'https://tattoostudiosite.netlify.app', link: 'https://github.com/ArsenZuna/tattoostudiosite', image: tattoostudio, alt: 'tattoostudio'},
 	{name:'AZtronics', description: 'A e-commerce site where you can order electronic devices like smartphones, laptops, headphones, and more.', preview:'https://aztronics.netlify.app', link: 'https://github.com/ArsenZuna/aztronics', image: aztronics, alt: 'aztronics'},
