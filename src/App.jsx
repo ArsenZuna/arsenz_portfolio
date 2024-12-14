@@ -5,6 +5,7 @@ import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import * as Sentry from "@sentry/react";
+import ScrollButton from "./utils/ScrollButton.jsx";
 
 const App = () => {
 
@@ -16,6 +17,7 @@ const App = () => {
       <section id='projects'><Projects /></section>
       <section id='contact'><Contact /></section>
       <Footer />
+      <ScrollButton />
     </div>
   )
 }
