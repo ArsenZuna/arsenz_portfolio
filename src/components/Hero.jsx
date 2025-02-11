@@ -2,7 +2,7 @@ import react from "react";
 import {TypeAnimation} from "react-type-animation";
 import {motion} from "framer-motion";
 import {fadeIn} from "../variants.js";
-import CV from "../../public/assets/Arsen Zuna - Curriculum Vitae.pdf"
+import Resume from "../../public/assets/Arsen_Zuna_Resume.pdf"
 
 const Hero = () => {
 	return (
@@ -30,7 +30,7 @@ const Hero = () => {
 						initial='hidden'
 						whileInView='show'
 						className='mt-12 flex items-center justify-center gap-x-6'>
-						<a href={CV} download='ArsenZuna_Resume' rel='noreferrer' target='_blank'>
+						<a href={Resume} download='ArsenZuna_Resume' rel='noreferrer' target='_blank'>
 							<button className='cv_button font-bold px-3.5 py-2.5'>Check Out My Resume</button>
 						</a>
 					</motion.div>
